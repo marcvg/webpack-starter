@@ -1,6 +1,6 @@
 {
-  "name": "dashboard",
-  "version": "1.1.0",
+  "name": "web-starter",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
