@@ -5,7 +5,7 @@ WSL Only - If using zsh (instead of bash):
 /> npm -g config set shell /usr/bin/zsh
 
 WSL Only - Set proxy if required:
-/> npm -g config set proxy http://<userid>:<password>@cloudpxgent1.srv.volvo.com:8080
+/> npm -g config set proxy http://<userid>:<password>@proxy.com:8008
 
 WSL Only - Install latest NodeJS LTS from repo:
 /> sudo apt-get install curl
@@ -17,22 +17,8 @@ Install latest Npm:
 Make sure npm is uptodate:
 /> npm update -g npm
 
-Install Yeoman:
-/> npm install -g yo
-
-Install Grunt
-/> npm install -g grunt-cli
-
-Install Bower
-/> npm install -g bower
-
-Execute following commands to rebuild dependencies after inital checkout:
-/> cd <git-folder>/dashboard
-/> npm update
-/> bower update
-
-Use following command to run UI on local server:
-/> grunt serve
+Run local web dev server:
+/> npm run start
 
 Use following command to create distributable web UI:
 /> npm run build
